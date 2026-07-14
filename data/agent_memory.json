@@ -1,7 +1,20 @@
 {
-  "investment_result": {
-    "value": "5000美元按7%年复利投资5年，最终金额为7012.76美元。",
-    "created_at": "2026-07-14T05:06:05",
-    "updated_at": "2026-07-14T06:09:16"
-  }
+  "_meta": {
+    "schema_version": "1.0",
+    "owner": "",
+    "created_at": "2026-07-14T08:56:08",
+    "user_input_count": 1
+  },
+  "profile": {},
+  "preferences": {},
+  "work": {},
+  "family": {},
+  "life": {
+    "user_input_0001_2026-07-14T09:09:04": {
+      "value": "[第1次输入 2026-07-14 09:09] 今天和老板发生冲突了",
+      "created_at": "2026-07-14T09:09:04",
+      "updated_at": "2026-07-14T09:09:04"
+    }
+  },
+  "general": {}
 }
