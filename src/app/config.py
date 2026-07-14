@@ -18,8 +18,8 @@ class AgentConfig:
 
     # ── 模型相关
     model_name: str = "deepseek-chat"
-    # 温度：0=最确定，1=最有创造力。写代码/计算建议 0.1-0.5
-    temperature: float = 0.1
+    # 温度：0=最确定，1=最有创造力。陪伴型助手建议 0.7-0.9
+    temperature: float = 0.8
 
     # ── 循环控制
     max_steps: int = 15

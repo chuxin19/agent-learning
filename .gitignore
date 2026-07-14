@@ -64,6 +64,10 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
+# ——— 智能体数据（用户记忆、本地文件） ———
+data/
+local-*.md
+
 # ——— 日志文件 ———
 logs/
 *.log

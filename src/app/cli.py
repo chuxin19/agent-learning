@@ -17,13 +17,7 @@ from .memory import MemoryStore
 from .models import get_client
 
 
-DEFAULT_TASK = (
-    "我想用 5000 美元按 7% 的年复利投资 5 年。"
-    "先计算最终金额，把结果以 'investment_result' 为键名保存到记忆，"
-    "然后把它读取出来以确认保存成功，"
-    "再去网络上搜索最新的智能体 AI 发展趋势，"
-    "最后写一小段话，总结投资结果和你找到的关键 AI 趋势。"
-)
+DEFAULT_TASK = "你好，今天是几年几月几日，星期几？"
 
 
 def main() -> None:

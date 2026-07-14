@@ -1,6 +1,6 @@
 # agent-learning — 智能体学习项目
 
-一个从零构建 ReAct 智能体（思考 → 行动 → 观察 → 循环完成任务）。本项目使用 DeepSeek API，兼容 OpenAI 协议。依赖管理使用 **uv**（类似 npm 的体验，装完自动记录依赖）。
+一个从零构建 ai 智能体（思考 → 行动 → 观察 → 循环完成任务）。本项目使用 DeepSeek API，兼容 OpenAI 协议。依赖管理使用 **uv**（类似 npm 的体验，装完自动记录依赖）。
 
 ---
 
@@ -8,7 +8,7 @@
 
 | 文件 | 作用 |
 |------|------|
-| `deepseek_agent.py` | 主程序：完整 ReAct 智能体（推荐使用） |
+| `deepseek_agent.py` | 主程序：完整 ai 智能体（推荐使用） |
 | `anthropic_agent.py` | 备用：使用 Anthropic Claude 的版本（英文注释） |
 | `anthropic_agent_zh.py` | 备用：使用 Anthropic Claude 的版本（中文注释） |
 | `pyproject.toml` | 项目配置 + 依赖声明（类似 package.json，由 uv 自动生成） |
@@ -232,7 +232,7 @@ python deepseek_agent.py
 | API Key | `.env.example` → `.env` | 模板复制为真实配置，绝不提交到 Git |
 | 客户端初始化 | `OpenAI(base_url="https://api.deepseek.com", api_key=...)` | DeepSeek 兼容 OpenAI 协议 |
 | 工具定义 | `tools` 列表 | 告诉模型"我能做什么" |
-| 主循环 | while 循环 + finish_reason 判断 | ReAct 模式的核心 |
+| 主循环 | while 循环 + finish_reason 判断 | ai 模式的核心 |
 
 ---
 
