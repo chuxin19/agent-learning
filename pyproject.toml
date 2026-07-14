@@ -1,0 +1,28 @@
+[project]
+name = "agent-learning"
+version = "0.0.1"
+description = "基于 DeepSeek API 的 ReAct 智能体学习项目"
+authors = [
+    { name = "Allen", email = "andyrubindreamer@gmail.com" },
+]
+readme = "docs/README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "openai>=2.45.0",
+    "python-dotenv>=1.2.2",
+]
+
+[project.scripts]
+run-agent = "app.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+source-dir = "src"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true
